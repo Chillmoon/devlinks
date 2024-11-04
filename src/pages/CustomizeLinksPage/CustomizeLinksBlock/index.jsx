@@ -1,8 +1,11 @@
 import React, { useContext, useState } from "react";
+
 import { ProfileContext } from "../../../contex/ProfileContex";
+
 import CustomButton from "../../../components/CustomButton";
 import LinkCard from "../../../components/LinkCard";
 import Modal from "../../../components/Modal";
+
 import "./customizeLinksBlockStyles.css";
 
 const platforms = [

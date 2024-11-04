@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./skeletonStyles.css";
 
 const Skeleton = ({ width, height, borderRadius, margin }) => {

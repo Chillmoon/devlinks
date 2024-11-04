@@ -1,6 +1,6 @@
 import "./customInputStyles.css";
 
-const CustomInput = ({ type, name, value, onChange, style, placeholder }) => {
+const CustomInput = ({ type, name, value, onChange, style }) => {
   return (
     <input
       type={type}

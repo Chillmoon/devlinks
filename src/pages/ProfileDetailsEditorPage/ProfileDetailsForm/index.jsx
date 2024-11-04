@@ -53,7 +53,6 @@ const ProfileDetailsForm = () => {
   };
 
   const handleSave = (e) => {
-    // No action taken on save only modal shows
     e.preventDefault();
     setModalVisible(true);
     setTimeout(() => setModalVisible(false), 3000);
