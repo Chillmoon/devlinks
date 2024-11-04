@@ -1,0 +1,31 @@
+.modal {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333333;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 14px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.save-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
